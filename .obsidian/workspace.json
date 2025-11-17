@@ -6,7 +6,7 @@
       {
         "id": "545ccd587e4c9ff7",
         "type": "tabs",
-        "dimension": 67.53171856978085,
+        "dimension": 77.19498289623718,
         "children": [
           {
             "id": "cd3b47e979484c59",
@@ -27,7 +27,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 32.46828143021915,
+        "dimension": 22.80501710376283,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4bba59fbe475453d",
@@ -202,7 +203,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "cd3b47e979484c59",
+  "active": "80e6175036e6ccd7",
   "lastOpenFiles": [
     "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
     "README.md",
