@@ -6,7 +6,7 @@
       {
         "id": "545ccd587e4c9ff7",
         "type": "tabs",
-        "dimension": 54.054054054054056,
+        "dimension": 67.53171856978085,
         "children": [
           {
             "id": "cd3b47e979484c59",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas/List of ideas.md",
+                "file": "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "List of ideas"
+              "title": "A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 45.94594594594595,
+        "dimension": 32.46828143021915,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -202,10 +202,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "80e6175036e6ccd7",
+  "active": "cd3b47e979484c59",
   "lastOpenFiles": [
-    "ideas/List of ideas.md",
+    "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
     "README.md",
+    "ideas/List of ideas.md",
     "ideas",
     "writting/paper-in-progress",
     "writting",
