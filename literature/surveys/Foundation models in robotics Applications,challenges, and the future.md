@@ -146,3 +146,276 @@ Challenges in this domain:
 - They show that without any task-speciﬁc ﬁne-tuning of the pretrained encoder, the visual representations can be utilized for various motor control tasks.
 - demonstrates a vision-language-action (VLA) model that takes a step further by learning from both web and robotics data.
 - Both RT-1 and RT-2 consider robot manipulation and navigation tasks using a real-world mobile manipulator robot from Everyday Robots.
+- RT-X explores training large cross-embodied robotic models, demonstrating positive transfer across robotic domains
+- PACT (Perception-Action Causal Transformer) is a generative transformer architecture that builds representations from robot data with self-supervision
+- SMART (Self-supervised Multi-task pretrAining with contRol Transformer) introduces self-supervised multi-task pretraining for control transformers
+- Experimentation underscores SMART’s ability to enhance learning efﬁciency across tasks and domains.
+- LATTE allows users to reshape robot trajectories using language instructions, leveraging pretrained language and visual-language models.
+- LATTE transformer takes as input geometrical features of an initial trajectory guess along with the obstacle map conﬁguration.
+- **One key obstacle to incorporating foundation models into robotics research is the reliance on real-world hardware experiments.**
+
+## Language-image goal-conditioned value learning
+
+- the aim is to **construct a value function** that aligns goals in different modalities and preserves temporal coherence due to the recursive nature of the value function.
+- R3M (Reusable Representation for Robotic Manipulations) provides pretrained visual representation for robot manipulation using diverse human video datasets
+- VIP (Value-Implicit Pretraining) employs time-contrastive learning to capture temporal dependencies in videos for learning visual goal-conditioned value functions **focused on manipulation tasks**
+- Pretraining involves using unlabeled human videos.
+- LIV (Language-Image Value Learning) is a control-centric vision-language representation that learns multi-modal vision-language value functions.
+- LIV generalizes the prior work VIP by learning multi-modal vision-language value functions and representations using language-aligned videos.
+- SayCan investigates integration of large language models with the physical world through learning, using language model for task-grounding and learned affordance function for world-grounding
+- Inner Monologue studies the role of grounded environment feedback provided to the LLM for robot planning
+- Text2Motion is a language-based planning framework for long-horizon robot manipulation
+- VoxPoser builds 3D value maps to ground affordances and constraints into the perceptual space
+
+## Robot task planning using large language models
+
+- Large language models (LLMs) can be used to provide high-level task planning for performing complex long-horizon robot tasks.
+### Language instructions for task specification
+- SayCan uses LLM for high-level task planning in language with a learned value function to ground instructions in the environment
+- Translation from natural language to temporal logic is proposed for imposing temporal specifications in robotic systems
+- LLMs are used to translate natural language task description to intermediary task representation used by Task and Motion Planning (TAMP) algorithms
+
+### Code generation using language models for task planning
+- ProgPrompt uses LLMs to generate sequences of actions directly with no additional domain knowledge
+- Code-as-Policies explores use of code-writing LLMs to generate robot policy code based on natural language commands
+- ChatGPT is used to provide design principles for robotics, demonstrating how LLMs can help robotic capabilities rapidly generalize to different form factors
+
+## In-context learning (ICL) for decision-making
+
+- In-context learning operates without parameter optimization, relying on examples included in the prompt
+- Chain-of-Thought is a prominent technique within in-context learning for executing sequence of intermediate steps for complex problems
+- LLMs possess remarkable pattern recognition abilities through in-context learning
+- Chain-of-Thought Predictive Control identifies specific brief sequences within demonstrations to understand hierarchical structure of tasks
+
+## Open-vocabulary robot navigation and manipulation
+
+### Open-vocabulary navigation
+- VLN-BERT presents a visual-linguistic transformer-based model for visual navigation using web data
+- LM-Nav is a system that utilizes pretrained models of images and language for visual navigation from natural language instructions
+- ViNT is a foundation model for visual navigation tasks trained on diverse training data, utilizes a Transformer-based architecture to learn navigational affordances
+- AVLMaps (Audio Visual Language Maps) presents 3D spatial map representation for cross-modal information from audio, visual, and language cues
+
+### Open-vocabulary manipulation
+- VIMA (VisuoMotor Attention Agent) learns robot manipulation from multi-modal prompts
+- RoboCat is a self-improving AI agent that learns to operate different robotic arms and improves from self-generated data
+- StructDiffusion enables robots to use partial viewpoint clouds and natural language instructions to construct goal configuration for objects
+- MOO (Manipulation of Open-World Objects) leverages pretrained vision-language model to extract object-centric information
+- DALL-E-Bot performs zero-shot autonomous rearrangement in scenes using pretrained image diffusion model DALL-E2
+
+### Open-vocabulary grasping
+- LERF (Language Embedded Radiance Fields) grounds CLIP embeddings into dense multi-scale 3D field for open-vocabulary grasping
+- LERF-TOGO presents zero-shot open-vocabulary grasping framework generating grasp proposals over objects
+- F3RM presents few-shot language-guided robot manipulation leveraging NeRF-based distilled feature field
+- Splat-MOVER uses language-embedded Gaussian Splatting 3D field for multi-stage open-vocabulary manipulation
+
+---
+# Perception
+
+Foundation models enable robots to convert high-dimensional sensory inputs into abstract, structured representations for robot understanding and reasoning.
+
+## Open-vocabulary object detection and 3D classification
+
+### Object detection
+- GLIP (Grounded Language-Image Pre-training) integrates object detection and grounding by redefining object detection as phrase grounding
+- OWL-ViT is an open-vocabulary object detector using vision transformer architecture with contrastive image-text pre-training
+- Grounding DINO combines DINO with grounded pre-training, extending closed-set DINO model to open-set detection
+
+### 3D classification
+- PointCLIP transfers CLIP's pre-trained knowledge of 2D images to 3D point cloud understanding
+- PointBERT uses transformer-based architecture to extract features from point clouds
+- ULIP achieves unified representation of Language, Images, and Point clouds for 3D understanding by pre-training with object triplets
+
+## Open-vocabulary semantic segmentation
+
+- LSeg is a language-driven semantic segmentation model that associates semantically similar labels to similar regions in embedding space
+- SAM (Segment Anything Model) introduces framework for promptable segmentation trained using supervised learning with data engines
+- FastSAM and MobileSAM achieve comparable performance to SAM at faster inference speeds
+- TAM (Track Anything Model) combines SAM and XMem for interactive video object tracking and segmentation
+
+## Open-vocabulary 3D scene and object representations
+
+### Language grounding in 3D scene
+- LERF (Language Embedded Radiance Fields) grounds CLIP embeddings into dense multi-scale 3D field for 3D representation
+- CLIP-Fields trains implicit scene representation by decoding latent vector to different modality-specific outputs
+- VLMaps projects pixel embeddings from LSeg to grid cells in top-down grid map
+- Semantic Abstraction decouples visual-semantic reasoning and 3D reasoning for 3D scene understanding
+- 3D-LLM proposes using 2D VLMs as backbones to train 3D-LLM that takes 3D representations as inputs
+
+### Scene editing
+- CLIP-NeRF uses CLIP to disentangle dependence between shape and appearance in conditional neural radiance fields
+- DFF (Distilled Feature Fields) trains distilled feature fields and manipulates them through query-based scene decomposition
+- Nerflets represent 3D scene as combination of local neural radiance fields for more controlled editing
+- ROSIE uses Imagen editor to modify training images for data augmentation during policy learning
+
+### Object representations
+- NDFs (Neural Descriptor Fields) learn correspondences between objects without dense annotation
+- F3RM builds scene representations supporting finding corresponding object regions
+- Correspondences between objects extracted directly from DINO features without training
+
+## Learned affordances
+
+- Affordance Diffusion synthesizes complex interactions of articulated hand with given object
+- VRB (Vision-Robotic Bridge) trains visual affordance model on internet videos of human behavior
+
+## Predictive models
+
+- World models predict how state of world changes given particular agent actions
+- GAIA-1 model generates predictions of driving video conditioned on arbitrary combinations of video, action, and text
+- Video prediction models combined with goal-conditioned policies to solve manipulation tasks
+- COMPASS constructs comprehensive multimodal graph to capture relational information across diverse modalities
+
+## Challenges and perspectives
+
+- Existing affordance models trained on large-scale data,largely due to data quality and quantity limitations and embodied gaps
+
+---
+# Embodied AI
+
+Recent research shows success of LLMs can be extended to embodied AI domains.
+
+## Key developments
+- Statler endows LLMs with explicit representation of world state as "memory" maintained over time
+- Dasgupta et al. combine pattern recognition and adaptation abilities in system with Planner, Actor, and Reporter
+- EmbodiedGPT utilizes prefix adapters to augment language model's capacity for embodied tasks
+- MineDojo is framework for developing generalist agents in Minecraft with thousands of open-ended language-prompted tasks
+- Voyager introduces LLM-powered embodied lifelong learning agent in Minecraft using GPT-4
+- GITM (Ghost in the Minecraft) leverages LLM to break down goals into sub-goals
+- Reward design can be simplified by utilizing LLM as proxy reward function
+- ELLM (Exploring with LLMs) rewards agent for achieving goals suggested by language model
+- VPT (Video PreTraining) presents video pretraining where agent learns to act by watching unlabeled online videos
+- Dynalang learns multi-modal world model to predict future text and image representations
+
+## Generalist AI
+- Gato is generalist agent working as multi-modal, multi-task, multi-embodiment generalist policy
+- RRL learns behaviors directly from proprioceptive inputs and can learn from visual inputs using pre-trained visual representations
+
+## Simulators
+- Gibson emphasizes real-world perception for embodied agents
+- iGibson and BEHAVIOR-1K support simulation of diverse household tasks with high simulation realism
+- Habitat consists of Habitat-Sim and Habitat-API for research in Embodied AI
+- Habitat-Lab is high-level library for embodied AI providing modular framework
+- Habitat 3.0 expands capabilities for co-habitat for humans, avatars and robots
+- RoboTHOR serves as platform for development and evaluation of embodied AI agents
+- VirtualHome models complex activities occurring in typical household
+
+---
+# Challenges and Future Directions
+
+## Overcoming data scarcity in training foundation models for robotics
+
+### Scaling robot learning using unstructured play data and unlabeled videos of humans
+- Use of teleoperated human-provided play data instead of fully annotated expert demonstrations
+- Play data is unstructured, unlabeled, cheap to collect, but rich
+- Very small percentage (as little as 1%) of language-annotated data needed for training
+
+### Data augmentation using inpainting
+- Use generative AI such as text-to-image diffusion models for data augmentation
+- ROSIE uses Imagen editor to modify training images
+- GenAug generates images with in-category and cross-category object substitutions
+- CACTI pipeline includes step inpainting different plausible objects via Stable-Diffusion
+
+### Overcoming 3D data scarcity for training 3D foundation models
+- Primary obstacle in developing foundational 3D VLM models is scarcity of 3D data paired with language descriptions
+- New datasets or data generation methods needed
+
+### Synthetic data generation via high-fidelity simulation
+- High-fidelity simulation via gaming engines can provide efficient means to collect data
+- TartanAir dataset collected in simulation with various conditions and multi-modal sensor data
+
+### Sim-to-real transfer
+- Robotics policies trained in simulated environments can be transferred to real world
+- Sim-to-real gap poses significant challenge for foundation models
+
+### Data augmentation using VLMs
+- DIAL uses VLM to label offline datasets for language-conditioned policy learning
+
+### Robot physical skills limitations
+- Robot physical skills limited to distribution of skills observed within robot data
+- Approach involves using motion data from videos of humans performing various tasks
+
+## Real-time performance (high inference time of foundation models)
+
+- Inference time of foundation models still needs improvement for reliable real-time deployment
+- Foundation models often stored and run in remote data centers, accessed through APIs requiring network connectivity
+- Network reliability should be taken into account before integrating foundation model into robot's autonomy stack
+- Potential solution is distillation of large foundation models into smaller-sized specialized models
+
+## Limitations in multimodal representation
+
+- Question remains whether single multimodal model can accommodate all modalities
+- When paired data between modality and text is available, can embed that modality into text directly
+- Some modalities lack sufficient data and need to be converted to other modalities first
+
+## Uncertainty quantification
+
+### Instance-level uncertainty quantification
+- Quantify uncertainty in output of foundation model for particular input
+- Instance-level uncertainty quantification can inform robot's decisions at runtime
+
+### Distribution-level uncertainty quantification
+- Quantify uncertainty in correctness of foundation model on distribution of possible future inputs
+- Allows deciding whether given model is sufficiently reliable to deploy
+
+### Calibration
+- Estimates of uncertainty should be calibrated
+- Important to distinguish between Frequentist and Bayesian interpretations of probabilities
+
+### Distribution shift
+- Important challenge in performing calibrated uncertainty quantification
+- More subtle cause in robotics arises from closed-loop deployment of model
+
+### Case study: uncertainty quantification for language-instructed robots
+- KNOWNO performs both instance-level and distribution-level uncertainty quantification using conformal prediction
+- Ensures statistically guaranteed level of task success
+
+## Safety evaluation
+
+### Pre-deployment safety tests
+- Rigorous pre-deployment testing crucial for ensuring safety
+- Foundation models often commit errors in ways hard to predict a priori
+- Deployment cycle involves thorough red-teaming by human evaluators
+
+### Runtime monitoring and out-of-distribution detection
+- Robots should perform runtime monitoring during operation
+- Can take form of failure prediction or out-of-distribution (OOD) detection
+
+### Performance evaluation
+- Greater reliance on statistical performance evaluation methods independent of policy's complexity
+
+## Using existing foundation models "plug-and-play" vs. building new foundation models for robotics
+
+### Incorporating tactile and audio sensing
+- Tactile and audio sensing critical for human manipulation but less commonly utilized
+- Early efforts toward developing unified and grounded representations for touch and audio
+
+### Foundation models for high-level reasoning and task planning
+- Development of robot-specific models for planning
+- Planning problems often require reasoning over discrete decisions and continuous actions
+
+## End-to-end vs. modular systems
+
+- Open question of how much structure should be imposed on robotic system
+- End-to-end approaches may yield stronger performance in long term
+- Modular approaches could be key to improved generalization capabilities and better sample efficiency
+
+## High variability in real-world robotic settings
+
+- Robot platforms inherently diverse with different physical characteristics
+- Real-world environments diverse and uncertain
+- Key factor is to pretrain large models that are task-agnostic, cross-embodiment, and open-ended
+
+## Benchmarking and reproducibility in robotics settings
+
+- Necessity of real-world hardware experiments creates challenges for reproducibility
+- Many works relied on non-physics-based simulators
+- Combination of open hardware, benchmarking in physics-based simulators, and promoting transparency can alleviate challenges
+
+## Envisioning the impact of foundation models in robotics
+
+Ultimate goal is to develop foundation models that enable robots to:
+- Safely and efficiently perform wide range of everyday tasks with high success rate
+- Operate through simple interfaces such as natural language text input
+- Household robots navigate indoor spaces, accurately grasp and manipulate objects, perform various chores
+- Autonomous vehicles achieve human-level contextual reasoning
+- Open-world navigation capabilities for exploration purposes
+- Humanoid robots deployed in open-world environments with human-level navigation, manipulation, and dexterity
