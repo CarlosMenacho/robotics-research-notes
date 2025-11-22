@@ -1,0 +1,2 @@
+- [ ] [Soft autonomous mobile manipulators in agricultural automation – a review ](https://doi.org/10.1177/09544062251347212)
+- [ ] 

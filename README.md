@@ -1,6 +1,6 @@
 #  Research notes
 
-- New ideas can be listed on [[List of ideas]]
+- New ideas can be listed on [[List of papers to review]]
 
 --- 
 # Surveys
@@ -8,6 +8,7 @@
 - Survey on [[Foundation models in robotics Applications,challenges, and the future]] are here. 
 - Survey on [[Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey]]
 - Survey on [[Diffusion Models for Robotic Manipulation A Survey]]
+- Specitic topic for [[A review of visual perception technology for intelligent fruit harvesting robots]]
 
 # Proposal research
 

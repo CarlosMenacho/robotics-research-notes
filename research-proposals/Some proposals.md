@@ -57,3 +57,10 @@ Agricultural robots require **task-specific training for each crop variety**, ma
 	- [ ] offline dataset in Gazebo, by human teleoperation
 	- [ ] Fine-tune with limited online RL
 	- [ ] Multi robot navigation
+
+
+--- 
+
+# Enhanced problem statement
+
+-  [[Perception-based problem statement]], robots currently are being applied in harvesting process, modern DL architectures are proposed to obtain fruit targets

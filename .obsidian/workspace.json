@@ -4,73 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "545ccd587e4c9ff7",
-        "type": "tabs",
-        "dimension": 50.19364833462432,
-        "children": [
-          {
-            "id": "cd3b47e979484c59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "literature/surveys/Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey"
-            }
-          },
-          {
-            "id": "338f64c5e23d79b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meetings/Meetings history.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Meetings history"
-            }
-          },
-          {
-            "id": "19283a9b174ce850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meetings/Meetings history.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Meetings history"
-            }
-          },
-          {
-            "id": "ca35738471787d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 49.80635166537567,
+        "dimension": 60.08064516129033,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -78,12 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research-proposals/Some proposals.md",
+                "file": "research-proposals/Perception-based problem statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Some proposals"
+              "title": "Perception-based problem statement"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3cbfb025cf02a2f7",
+        "type": "tabs",
+        "dimension": 39.91935483870967,
+        "children": [
+          {
+            "id": "59ffdd97ce42e660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A review of visual perception technology for intelligent fruit harvesting robots"
             }
           }
         ]
@@ -159,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "create a link.md",
+                "file": "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for create a link"
+              "title": "Backlinks for A review of visual perception technology for intelligent fruit harvesting robots"
             }
           },
           {
@@ -248,27 +205,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "338f64c5e23d79b0",
+  "active": "59ffdd97ce42e660",
   "lastOpenFiles": [
-    "research-proposals/Some proposals.md",
-    "meetings/Meetings history.md",
+    "research-proposals/Perception-based problem statement.md",
+    "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
     "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
-    "meetings",
-    "literature/surveys/Diffusion Models for Robotic Manipulation A Survey.md",
-    "ideas/List of ideas.md",
+    "research-proposals/Some proposals.md",
+    "ideas/List of papers to review.md",
+    "papers/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
+    "writting/paper-in-progress/robotics-application.md",
+    "ideas/Untitled.md",
     "literature/surveys/Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey.md",
-    "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md",
-    "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
     "README.md",
+    "meetings/restricted_papers.md",
+    "meetings/Meetings_history.md",
+    "literature/papers/additive-building",
+    "literature/papers/robotics-agriculture",
+    "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md",
+    "literature/surveys/Diffusion Models for Robotic Manipulation A Survey.md",
+    "meetings/Meetings history.md",
+    "meetings",
+    "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
     "papers/Vision-Language-Action.pdf",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
-    "papers/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
     "papers",
     "ideas",
     "writting/paper-in-progress",
     "writting",
-    "research-proposals",
-    "literature/books",
     "test2.md",
     "create a link.md",
     "Welcome.md"
