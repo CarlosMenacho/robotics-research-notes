@@ -57,4 +57,3 @@ Agricultural robots require **task-specific training for each crop variety**, ma
 	- [ ] offline dataset in Gazebo, by human teleoperation
 	- [ ] Fine-tune with limited online RL
 	- [ ] Multi robot navigation
-  

@@ -6,7 +6,7 @@
       {
         "id": "545ccd587e4c9ff7",
         "type": "tabs",
-        "dimension": 68.47826086956522,
+        "dimension": 50.19364833462432,
         "children": [
           {
             "id": "cd3b47e979484c59",
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research-proposals/Some proposals.md",
+                "file": "meetings/Meetings history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Some proposals"
+              "title": "Meetings history"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
+                "file": "meetings/Meetings history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments"
+              "title": "Meetings history"
             }
           },
           {
@@ -70,16 +70,20 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 31.521739130434785,
+        "dimension": 49.80635166537567,
         "children": [
           {
             "id": "80e6175036e6ccd7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "research-proposals/Some proposals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Some proposals"
             }
           }
         ]
@@ -139,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5026054382324
+    "width": 200
   },
   "right": {
     "id": "4bba59fbe475453d",
@@ -247,13 +251,15 @@
   },
   "active": "80e6175036e6ccd7",
   "lastOpenFiles": [
+    "meetings/Meetings history.md",
     "research-proposals/Some proposals.md",
+    "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
+    "meetings",
+    "literature/surveys/Diffusion Models for Robotic Manipulation A Survey.md",
     "ideas/List of ideas.md",
     "literature/surveys/Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey.md",
-    "literature/surveys/Diffusion Models for Robotic Manipulation A Survey.md",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md",
     "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
-    "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
     "README.md",
     "papers/Vision-Language-Action.pdf",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
@@ -264,7 +270,6 @@
     "writting",
     "research-proposals",
     "literature/books",
-    "literature/papers",
     "test2.md",
     "create a link.md",
     "Welcome.md"
