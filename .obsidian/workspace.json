@@ -245,14 +245,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "bases:Create new base": false
     }
   },
-  "active": "80e6175036e6ccd7",
+  "active": "338f64c5e23d79b0",
   "lastOpenFiles": [
-    "meetings/Meetings history.md",
     "research-proposals/Some proposals.md",
+    "meetings/Meetings history.md",
     "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
     "meetings",
     "literature/surveys/Diffusion Models for Robotic Manipulation A Survey.md",
