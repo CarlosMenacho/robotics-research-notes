@@ -1,2 +1,3 @@
 - [ ] [Soft autonomous mobile manipulators in agricultural automation – a review ](https://doi.org/10.1177/09544062251347212)
+- [ ] [Transforming Agriculture with Advanced Robotic Decision Systems via Deep Recurrent Learning](https://doi.org/10.1016/j.eswa.2024.125123 "Persistent link using digital object identifier")
 - [ ] 
