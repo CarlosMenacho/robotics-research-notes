@@ -21,4 +21,4 @@
 	-  simulation environment (perhaps IsaacSim), need more research
 	- High computation
 	
-3. Related to (1.) define a unsupervised DL model to predict a 3D point for harvesting 
+3. Related to (1.) define a unsupervised DL model to predict a point for harvesting 
