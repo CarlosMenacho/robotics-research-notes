@@ -8,7 +8,7 @@
 
 --- 
 # Some proposals
-1. Combine learning-based and geometric-based viewpoints planning into a unified DL architecture, in order to predict a from a single-image to geometric transformation for harvesting fruit
+1. Combine learning-based and geometric-based viewpoints planning into a unified DL architecture, in order to predict from a single-image to geometric transformation for harvesting fruit
 
 	**Challenges:** 
 	- Camera technology

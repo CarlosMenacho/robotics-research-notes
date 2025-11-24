@@ -1,6 +1,6 @@
 
 # Nov 21, 2025 
-- [ ] Some professors's research interest
+- [x] Some professors's research interest
 	- Harvesting 
 	- Dual arm collaboration and manipulation
 	- Multi-track controllers

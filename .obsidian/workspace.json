@@ -6,7 +6,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 60.080645161290334,
+        "dimension": 59.012715033657436,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
+                "file": "literature/papers/reinforcement-learning/Deformable Cluster Manipulation via Whole-Arm Policy Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation"
+              "title": "Deformable Cluster Manipulation via Whole-Arm Policy Learning"
             }
           }
         ]
@@ -27,16 +27,20 @@
       {
         "id": "3cbfb025cf02a2f7",
         "type": "tabs",
-        "dimension": 39.91935483870967,
+        "dimension": 40.98728496634256,
         "children": [
           {
             "id": "59ffdd97ce42e660",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "meetings/Meetings_history.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Meetings_history"
             }
           }
         ]
@@ -201,17 +205,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0e54dcda293272f",
+  "active": "80e6175036e6ccd7",
   "lastOpenFiles": [
+    "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
+    "literature/papers/reinforcement-learning/Deformable Cluster Manipulation via Whole-Arm Policy Learning.md",
+    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
+    "meetings/Meetings_history.md",
+    "research-proposals/Perception-based problem statement.md",
     "papers-pdf/Vision-Language-Action.pdf",
     "papers-pdf/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
     "papers-pdf",
     "literature/papers/reinforcement-learning/SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting.md",
-    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "meetings/restricted_papers.md",
     "writting/paper-in-progress/robotics-applications-paper.md",
-    "meetings/Meetings_history.md",
-    "research-proposals/Perception-based problem statement.md",
     "literature/papers/reinforcement-learning",
     "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
     "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
@@ -230,7 +236,6 @@
     "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
     "papers/Vision-Language-Action.pdf",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
-    "papers",
     "test2.md",
     "create a link.md",
     "Welcome.md"
