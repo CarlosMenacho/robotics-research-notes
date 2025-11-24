@@ -6,7 +6,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 60.08064516129033,
+        "dimension": 60.080645161290334,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -203,9 +203,9 @@
   },
   "active": "80e6175036e6ccd7",
   "lastOpenFiles": [
-    "meetings/restricted_papers.md",
-    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "literature/papers/reinforcement-learning/SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting.md",
+    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
+    "meetings/restricted_papers.md",
     "writting/paper-in-progress/robotics-applications-paper.md",
     "meetings/Meetings_history.md",
     "research-proposals/Perception-based problem statement.md",
