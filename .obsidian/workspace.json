@@ -201,8 +201,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "80e6175036e6ccd7",
+  "active": "d0e54dcda293272f",
   "lastOpenFiles": [
+    "papers-pdf/Vision-Language-Action.pdf",
+    "papers-pdf/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
+    "papers-pdf",
     "literature/papers/reinforcement-learning/SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting.md",
     "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "meetings/restricted_papers.md",
@@ -228,8 +231,6 @@
     "papers/Vision-Language-Action.pdf",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
     "papers",
-    "ideas",
-    "writting/paper-in-progress",
     "test2.md",
     "create a link.md",
     "Welcome.md"
