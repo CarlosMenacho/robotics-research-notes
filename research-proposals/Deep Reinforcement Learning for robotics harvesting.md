@@ -10,7 +10,8 @@
 - [[Deformable Cluster Manipulation via Whole-Arm Policy Learning]] proposes a RL agent for three tasks, clearing power lines, autonomous inspection, agricultural exposure. Everything runs via 3D point cloud and touch indicators. Also proposes a novel occlusion Heuristics for measuring fruit occlusion. Their algorithm uses Proximal Policy Approximation from RL games
 - [[SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting]] proposes a zero-shot transfer learning using using RGB manipulation by Gaussian Splatting rendering. Transforms frames should be alighted in order to enable RGB with multi-viewpoint using external cameras. 
 - [[Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting]] trains an agent for strawberry harvesting. Their results achieve 50% of success rate. They aim to solve sim2real problem by domain randomization techniques and RL emploting Dormant Ratio Minimization. 
-- [[Coverage path planning for kiwifruit picking robots based on deepreinforcement learning]]
+- [[Coverage path planning for kiwifruit picking robots based on deepreinforcement learning]] implements a DRL agent for navigation purposes. The robot aim to coverage a entire scene given a fruit projection. They employ a modified version of DQN called re-DQN. 
+- [[Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot]]
 
 
 ---

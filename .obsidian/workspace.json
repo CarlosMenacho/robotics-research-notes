@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/papers/reinforcement-learning/Coverage path planning for kiwifruit picking robots based on deepreinforcement learning.md",
+                "file": "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coverage path planning for kiwifruit picking robots based on deepreinforcement learning"
+              "title": "Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot"
             }
           },
           {
@@ -217,9 +217,10 @@
   },
   "active": "59ffdd97ce42e660",
   "lastOpenFiles": [
+    "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
+    "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
     "literature/papers/reinforcement-learning/Coverage path planning for kiwifruit picking robots based on deepreinforcement learning.md",
     "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
-    "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
     "literature/papers/reinforcement-learning/Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting.md",
     "research-proposals/Some proposals.md",
     "README.md",
