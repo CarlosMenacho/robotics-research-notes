@@ -10,7 +10,7 @@
 ## Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation
 
 
-Agricultural robots require **task-specific training for each crop variety**, making deployment prohibitively expensive. Foundation models show promise but lack agricultural-specific pre-training and multi-robot coordination capabilities [[Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey]].  This proposal creates the first **vision-language-action foundation model for agricultural multi-robot systems**.
+Agricultural robots require **task-specific training for each crop variety**, making deployment prohibitively expensive. Foundation models show promise but lack agricultural-specific pre-training and multi-robot coordination capabilities.  This proposal creates the first **vision-language-action foundation model for agricultural multi-robot systems**.
 
 ### some ideas
 #### 1. Agricultural Vision-Language-Action Model
@@ -64,3 +64,4 @@ Agricultural robots require **task-specific training for each crop variety**, ma
 # Enhanced problem statement
 
 -  [[Perception-based problem statement]], robots currently are being applied in harvesting process, modern DL architectures are proposed to obtain fruit targets
+- [[Deep Reinforcement Learning for robotics harvesting]], robots as a RL agent to learn harvesting process. 
