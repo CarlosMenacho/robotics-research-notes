@@ -6,7 +6,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 68.01075268817203,
+        "dimension": 68.01075268817205,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
+                "file": "literature/papers/reinforcement-learning/A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Reinforcement Learning for robotics harvesting"
+              "title": "A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping"
             }
           },
           {
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 232.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "4bba59fbe475453d",
@@ -217,23 +218,24 @@
   },
   "active": "59ffdd97ce42e660",
   "lastOpenFiles": [
-    "README.md",
+    "literature/papers/reinforcement-learning/A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping.md",
+    "meetings/restricted_papers.md",
     "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
-    "literature/papers/reinforcement-learning/A Deep Learning-Based Approach to Strawberry Grasping Using a Telescopic-Link Differential Drive Mobile Robot in ROS-Gazebo for Greenhouse Digital Twin Environments.md",
     "literature/surveys/A Review on Dual-Arm Manipulation in Agriculture.md",
+    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
+    "research-proposals/Perception-based problem statement.md",
+    "literature/papers/robotics-agriculture/A Deep Learning-Based Approach to Strawberry Grasping Using a Telescopic-Link Differential Drive Mobile Robot in ROS-Gazebo for Greenhouse Digital Twin Environments.md",
+    "README.md",
     "ideas/List of papers to review.md",
     "literature/papers/reinforcement-learning/Transforming Agriculture with Advanced Robotic Decision Systems viaDeep Recurrent Learning.md",
     "literature/papers/reinforcement-learning/Coverage path planning for kiwifruit picking robots based on deepreinforcement learning.md",
     "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
-    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "literature/papers/reinforcement-learning/Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting.md",
     "research-proposals/Some proposals.md",
-    "meetings/restricted_papers.md",
     "literature/surveys/Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey.md",
     "literature/papers/reinforcement-learning/SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting.md",
     "meetings/Meetings_history.md",
     "literature/papers/reinforcement-learning/Deformable Cluster Manipulation via Whole-Arm Policy Learning.md",
-    "research-proposals/Perception-based problem statement.md",
     "papers-pdf/Vision-Language-Action.pdf",
     "papers-pdf/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
     "papers-pdf",
@@ -251,7 +253,6 @@
     "meetings",
     "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
     "papers/Vision-Language-Action.pdf",
-    "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
-    "test2.md"
+    "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894"
   ]
 }

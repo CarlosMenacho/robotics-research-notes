@@ -4,6 +4,11 @@
 - for sure, it depends of the camera's technology, generally require depth estimations,
 
 
+# Previous Works
+
+- [[A Deep Learning-Based Approach to Strawberry Grasping Using a Telescopic-Link Differential Drive Mobile Robot in ROS-Gazebo for Greenhouse Digital Twin Environments]] presents a digital twin of a greenhouse simulation in GAZEBO environment. Telescopic arm is incorporated over the mobile platform equipped with 3D camera and IMU. The authors also propose a new image-based detector YOLOv9-GLEAN, which is comparable to the state-of-the-art detectors.
+
+
 
 
 --- 

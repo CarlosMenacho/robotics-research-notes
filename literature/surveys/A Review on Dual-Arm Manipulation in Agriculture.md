@@ -37,11 +37,11 @@ This systematic review examines **dual-arm robotic systems for agricultural appl
 
 **Classification (following Smith et al., 2012):**
 
-| Category | Definition | Example in Agriculture |
-|----------|------------|------------------------|
-| **Un-coordinated** | Arms perform independent, unrelated tasks | Left arm welding, right arm palletizing |
-| **Goal-coordinated** | Arms perform identical, independent sequences | Both arms harvesting fruits simultaneously |
-| **Bimanual** | Arms perform different, complementary tasks toward common goal | One arm stabilizes branch, other harvests |
+| Category             | Definition                                                     | Example in Agriculture                     |
+| -------------------- | -------------------------------------------------------------- | ------------------------------------------ |
+| **Un-coordinated**   | Arms perform independent, unrelated tasks                      | Left arm welding, right arm palletizing    |
+| **Goal-coordinated** | Arms perform identical, independent sequences                  | Both arms harvesting fruits simultaneously |
+| **Bimanual**         | Arms perform different, complementary tasks toward common goal | One arm stabilizes branch, other harvests  |
 
 **Agricultural Focus:** This review concentrates on **coordinated** and **bimanual** categories.
 

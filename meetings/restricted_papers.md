@@ -2,4 +2,10 @@
 - [x] [Transforming Agriculture with Advanced Robotic Decision Systems via Deep Recurrent Learning](https://doi.org/10.1016/j.eswa.2024.125123 "Persistent link using digital object identifier")
 - [x] [Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot](https://doi.org/10.1016/j.compag.2023.108488 "Persistent link using digital object identifier")
 - [x] [Coverage path planning for kiwifruit picking robots based on deep reinforcement learning](https://doi.org/10.1016/j.compag.2022.107593 "Persistent link using digital object identifier")
+- [x] IEEE [Autonomous Bimanual Manipulation of Deformable Objects Using Deep Reinforcement Learning Guided Adaptive Control](https://ieeexplore.ieee.org/abstract/document/11127676)
+- [x] IEEE [Sim2Fruit: Towards Reinforcement Learning Training for Sim-to-Real Autonomous Robotic Fruit Harvesting](https://ieeexplore.ieee.org/abstract/document/11021213)
+- [x] IEEE [Chilli Harvesting with Robot Operating System 2 and Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10984602)
+- [ ] ELSEVIER [Research on the mechanized harvesting strategy for clustered kiwi fruits based on deep reinforcement learning]([https://doi.org/10.1016/j.compag.2025.110686](https://doi.org/10.1016/j.compag.2025.110686 "Persistent link using digital object identifier"))
+- [ ] ELSEVIER [DRL-enhanced 3D detection of occluded stems for robotic grape harvesting](https://www.sciencedirect.com/science/article/abs/pii/S016816992401127X)
+- [ ] ELSEVIER [Digital twin-driven system for efficient tomato harvesting in greenhouses](https://www.sciencedirect.com/science/article/abs/pii/S0168169925005575)
 - [ ] 
