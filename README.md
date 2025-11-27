@@ -8,7 +8,8 @@
 - Survey on [[Foundation models in robotics Applications,challenges, and the future]] are here. 
 - Survey on [[Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey]]
 - Survey on [[Diffusion Models for Robotic Manipulation A Survey]]
-- Specitic topic for [[A review of visual perception technology for intelligent fruit harvesting robots]]
+- Specific topic for [[A review of visual perception technology for intelligent fruit harvesting robots]]
+- Dual Arm in agriculture survey in [[A Review on Dual-Arm Manipulation in Agriculture]]
 
 # Proposal research
 

@@ -6,7 +6,7 @@
       {
         "id": "88b6cfcb977240aa",
         "type": "tabs",
-        "dimension": 60.20942408376963,
+        "dimension": 68.01075268817203,
         "children": [
           {
             "id": "80e6175036e6ccd7",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
+                "file": "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot"
+              "title": "Deep Reinforcement Learning for robotics harvesting"
             }
           },
           {
@@ -41,7 +41,7 @@
       {
         "id": "3cbfb025cf02a2f7",
         "type": "tabs",
-        "dimension": 39.79057591623037,
+        "dimension": 31.989247311827956,
         "children": [
           {
             "id": "59ffdd97ce42e660",
@@ -217,13 +217,17 @@
   },
   "active": "59ffdd97ce42e660",
   "lastOpenFiles": [
+    "README.md",
     "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
-    "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
+    "literature/papers/reinforcement-learning/A Deep Learning-Based Approach to Strawberry Grasping Using a Telescopic-Link Differential Drive Mobile Robot in ROS-Gazebo for Greenhouse Digital Twin Environments.md",
+    "literature/surveys/A Review on Dual-Arm Manipulation in Agriculture.md",
+    "ideas/List of papers to review.md",
+    "literature/papers/reinforcement-learning/Transforming Agriculture with Advanced Robotic Decision Systems viaDeep Recurrent Learning.md",
     "literature/papers/reinforcement-learning/Coverage path planning for kiwifruit picking robots based on deepreinforcement learning.md",
+    "literature/papers/reinforcement-learning/Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot.md",
     "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "literature/papers/reinforcement-learning/Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting.md",
     "research-proposals/Some proposals.md",
-    "README.md",
     "meetings/restricted_papers.md",
     "literature/surveys/Large VLM-based Vision-Language-Action Models for Robotic Manipulation A Survey.md",
     "literature/papers/reinforcement-learning/SplatSim Zero-Shot Sim2Real Transfer of RGB Manipulation PoliciesUsing Gaussian Splatting.md",
@@ -237,7 +241,6 @@
     "literature/papers/reinforcement-learning",
     "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
     "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
-    "ideas/List of papers to review.md",
     "papers/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
     "ideas/Untitled.md",
     "literature/papers/additive-building",
@@ -249,8 +252,6 @@
     "Foundation Models for Data-Efficient Multi-Robot Agricultural Manipulation.md",
     "papers/Vision-Language-Action.pdf",
     "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md.tmp.46200.1763479746894",
-    "test2.md",
-    "create a link.md",
-    "Welcome.md"
+    "test2.md"
   ]
 }

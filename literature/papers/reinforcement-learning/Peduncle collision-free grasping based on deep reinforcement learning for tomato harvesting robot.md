@@ -69,7 +69,7 @@
 **1. Heuristic Action Fusion Strategy:**
 
 $$
-qt+1 = SLERP(DRL_action, Heuristic_baseline, α(t)) ⊗ qt
+q_{t+1} =  SLERP(\dot{q}, q_{Z-B}, \alpha(t)) ⊗ q_t
 $$
 
 - Combines DRL policy with geometric heuristics
@@ -99,14 +99,43 @@ $$
 
 **Reward Function:**
 
-```
-r_total = 10×r_goal + 2×r_pos + 0.2×r_ctrl + r_obs
-```
+$$
+r_t(s_t,a_t) = \lambda_1 r_{goal} + \lambda_2×r_{pos} + \lambda_3×r_{ctrl} + r_{obs}
+$$
 
-- r_goal: Distance-based reaching
-- r_pos: Angle to optimal plane
-- r_ctrl: Smooth motion
-- r_obs: Collision penalty (-100)
+- $r_{goal}$: Distance-based reaching
+$$
+
+r_{goal} = 
+\begin{cases}
+-\frac{1}{2} d_g^2 d_g \leq \varphi \\
+-\varphi (|d_g| - \frac{1}{2}\varphi)d_g >\varphi
+\end{cases}
+
+$$
+
+
+- $r_{pos}$: Angle to optimal plane
+$$
+r_{goal} =  
+\begin{cases}
+- (\cos^{-1} (\frac{V_x^e \bullet n_t}{|| v_x^e|| ||n_t||}))^2 \text{if} d_g  \leq \varphi \text{and} p_e \in T \\
+- 10 \text{if} d_g \leq \varphi \text{and} p_e \notin T
+\end{cases}
+$$
+- $r_{ctrl}$: Smooth motion
+$$
+r_{ctrl} = - \sqrt{\sum_{i=1}^{n_{links}} (\theta_t^{i} - \theta_{t-1}^i)^2}
+$$
+- $r_{obs}$: Collision penalty (0 or  -100)
+
+$$
+r_{obs} = 
+\begin{cases}
+100 \text{if collition} \\
+0 \text{otherwise}
+\end{cases}
+$$
 
 ---
 
