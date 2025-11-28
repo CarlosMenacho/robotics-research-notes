@@ -187,7 +187,7 @@ $$
 
 ### Temporal Ensembling
 
-- Applied action smoothing post-training: `a_t = [a^s_t, a^s_{t-1}, a^s_{t-2}, a^s_{t-3}] × [0.5, 0.3, 0.2, 0.1]^T`
+- Applied action smoothing post-training: $a_t = [a^s_t, a^s_{t-1}, a^s_{t-2}, a^s_{t-3}] × [0.5, 0.3, 0.2, 0.1]^T$
 - Reduced action jitter by ~50% (smoothness metric: 2.46 → 1.19)
 - Minimal performance impact (96.7% success maintained)
 - Important for motor longevity in real systems
@@ -198,7 +198,7 @@ $$
 
 - Two-layer control hierarchy:
     1. RL policy at 10 Hz providing target poses
-    2. Impedance controller at 100 Hz: `F = k_p · e + k_d · ė`
+    2. Impedance controller at 100 Hz: $F = k_p · e + k_d · ė$
     3. Safety bounds: |e| ≤ Δ to prevent collisions
 
 ### Modified Rodrigues Parameters

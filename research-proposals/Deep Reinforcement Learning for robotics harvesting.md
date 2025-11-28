@@ -13,7 +13,8 @@
 - [[Coverage path planning for kiwifruit picking robots based on deepreinforcement learning]] implements a DRL agent for navigation purposes. The robot aim to coverage a entire scene given a fruit projection. They employ a modified version of DQN called re-DQN. 
 - [[Peduncle collision-free grasping based on deep reinforcement learning for tomato harvesting robot]] proposes a Harvesting  Optimal Posture Plane HOPP, using 3D reconstruction of the tomatoes branches. Also, they are using an improved HER-SAC  (model-free), off policy,  actor-critic DRL algorithm. 
 - (not related) [[Transforming Agriculture with Advanced Robotic Decision Systems viaDeep Recurrent Learning]] propose a two-layered Deep recurrent Learning for via Pliant Decision System to optimize robotics operation in a farm. 
-- [[A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping]]
+- (another domain)[[A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping]] presents a comparison of different perception techniques to train a manipulator and grasping. Specifically, compared RGB images with 3D voxel grid, this last  achieved better performance and benefits the policy training. 
+- [[Offline Goal-Conditioned Reinforcement Learning for Shape Control of Deformable Linear Objects]] employs a dual-arm robot to grasp deformable objects. Employs a RGB-D data with a image preprocesing.
 
 
 ---
