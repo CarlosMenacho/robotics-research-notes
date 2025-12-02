@@ -15,6 +15,8 @@
 - (not related) [[Transforming Agriculture with Advanced Robotic Decision Systems viaDeep Recurrent Learning]] propose a two-layered Deep recurrent Learning for via Pliant Decision System to optimize robotics operation in a farm. 
 - (another domain)[[A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping]] presents a comparison of different perception techniques to train a manipulator and grasping. Specifically, compared RGB images with 3D voxel grid, this last  achieved better performance and benefits the policy training. 
 - [[Offline Goal-Conditioned Reinforcement Learning for Shape Control of Deformable Linear Objects]] employs a dual-arm robot to grasp deformable objects. Employs a RGB-D data with a image preprocesing.
+- [[Chilli Harvesting with Robot Operating System 2and Reinforcement Learning]]
+- [[]]
 
 
 ---

@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/survey-construction/Frontiers in construction 3D printing self-monitoring, multi-robot, drone-assisted processes.md",
+                "file": "meetings/Meetings_history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frontiers in construction 3D printing self-monitoring, multi-robot, drone-assisted processes"
+              "title": "Meetings_history"
             }
           }
         ],
@@ -232,19 +232,22 @@
   },
   "active": "b3e9c91709a67d8d",
   "lastOpenFiles": [
-    "literature/papers/additive-building/A Comprehensive Performance Evaluation of Different Mobile Manipulators Used as Displaceable 3D Printers of Building Elements for the Construction Industry.md",
-    "literature/survey-construction/Frontiers in construction 3D printing self-monitoring, multi-robot, drone-assisted processes.md",
-    "literature/survey-construction",
-    "meetings/Meetings_history.md",
     "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
+    "meetings/Meetings_history.md",
+    "literature/papers/reinforcement-learning/Autonomous Bimanual Manipulation of Deformable Objects Using Deep Reinforcement Learning Guided Adaptive Control.md",
     "research-proposals/Perception-based problem statement.md",
-    "literature/papers/reinforcement-learning/Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting.md",
+    "literature/papers/reinforcement-learning/Sim2Fruit Towards Reinforcement Learning Training forSim-to-Real Autonomous Robotic Fruit Harvesting.md",
+    "literature/papers/reinforcement-learning/Chilli Harvesting with Robot Operating System 2and Reinforcement Learning.md",
+    "meetings/restricted_papers.md",
     "literature/papers/reinforcement-learning/Offline Goal-Conditioned Reinforcement Learning for Shape Control of Deformable Linear Objects.md",
+    "literature/survey-construction/Frontiers in construction 3D printing self-monitoring, multi-robot, drone-assisted processes.md",
+    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
+    "literature/papers/additive-building/A Comprehensive Performance Evaluation of Different Mobile Manipulators Used as Displaceable 3D Printers of Building Elements for the Construction Industry.md",
+    "literature/survey-construction",
+    "literature/papers/reinforcement-learning/Zero-Shot Sim-to-Real Reinforcement Learning for Fruit Harvesting.md",
     "literature/papers/reinforcement-learning/A comparison of visual representations for real-world reinforcement learning in the context of vacuum gripping.md",
     "Untitled.base",
-    "meetings/restricted_papers.md",
     "literature/surveys/A Review on Dual-Arm Manipulation in Agriculture.md",
-    "literature/papers/reinforcement-learning/Find the Fruit Designing a Zero-Shot Sim2Real DeepRL Planner for Occlusion Aware Plant Manipulation.md",
     "literature/papers/robotics-agriculture/A Deep Learning-Based Approach to Strawberry Grasping Using a Telescopic-Link Differential Drive Mobile Robot in ROS-Gazebo for Greenhouse Digital Twin Environments.md",
     "README.md",
     "ideas/List of papers to review.md",
@@ -261,12 +264,9 @@
     "writting/paper-in-progress/robotics-applications-paper.md",
     "literature/papers/reinforcement-learning",
     "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
-    "literature/surveys/A Comprehensive Review of Mobile Robot Navigation Using DeepReinforcement Learning Algorithms in Crowded Environments.md",
     "papers/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
-    "ideas/Untitled.md",
     "literature/papers/additive-building",
     "literature/papers/robotics-agriculture",
-    "literature/surveys/Foundation models in robotics Applications,challenges, and the future.md",
     "meetings"
   ]
 }

@@ -13,3 +13,53 @@
 - [x] Check the following papers
 	- [A Comprehensive Performance Evaluation of Different Mobile Manipulators Used as Displaceable 3D Printers of Building Elements for the Construction Industry](https://www.mdpi.com/2071-1050/12/11/4378)
 	- [SplatSim: Zero-Shot Sim2Real Transfer of RGB Manipulation Policies Using Gaussian Splatting](https://arxiv.org/html/2409.10161v1)
+
+# Nov 28, 2025
+
+- [ ] Manipulation harvesting tomato, north lettuce zanahoria
+- [ ] xarm5 for experiments
+- [ ] online-learning end2end
+- [ ] propose contains (~8-10 hojas)
+	- [x] title
+	- [x] abstract (problematic, manipulation, why do we need robotic manipulation)
+		- [ ] Technical en general, zero shot, env modeling. 
+		- [ ] no simulation, 
+		- [ ] que es lo que se espera de la investigación
+		- [ ] proveer asistencia a los cosechadores
+	- [x] Intro (actual context)
+		- [ ] que haremos diferente
+		- [ ] que haríamos (manipulacion en robotica) condiciones de iluminación.
+		- [ ] para que sirve cada
+		- [ ] métricas, no especificas
+		- [ ] variables cinemáticas, trayectorias
+		- [ ] analizar los gaps y stateoftheart
+	- [ ] marco teorico
+		- [ ] hablar de las tecnicas de los modelos de aprendizaje
+		- [ ] controladores en2end, RL
+		- [ ] visual servoing, añadir beneficios y retos
+		- [ ] tipos de control 
+		- [ ] RL-online - **focus**
+	- [ ] Marco conceptual
+		- [ ] Conceptos de lo que comprende las técnicas
+		- [ ] resumen de como funciona
+		- [ ] Como se estructura el ambiente
+		- [ ] Simulaciones, como lo emplean
+		- [ ] control Policy
+		- [ ] (hablar de diffusion policy)
+	- [ ] planificación de trabajo doctoral
+		- [ ] 8 objetivos - fechas
+			- [ ] asociar a la malla 
+			- [ ] stateof the art
+			- [ ] reconstrucción de ambientes
+			- [ ] modelos de simulación
+			- [ ] modelos de teleoperación
+			- [ ] datasets de entrenamiento
+			- [ ] implementación,
+			- [ ] prueba 
+			- [ ] transferencia
+			- [ ] evaluación
+		- [ ] Diagrama de Gantt con todas las actividades
+
+- [x] check links
+	-  https://www.elektor.com/products/ufactory-xarm-5-lite?srsltid=AfmBOorXGNrNlV3f6nNmQMu9dBnLz6IAjfxiIyRCV7CmX9iE-lmgBHrJ
+	- https://github.com/xArm-Developer/ufactory_vision
