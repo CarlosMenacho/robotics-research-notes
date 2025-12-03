@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meetings/Meetings_history.md",
+                "file": "literature/papers/reinforcement-learning/DRL-enhanced 3D detection of occluded stems for robotic grape harvesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meetings_history"
+              "title": "DRL-enhanced 3D detection of occluded stems for robotic grape harvesting"
             }
           }
         ],
@@ -232,8 +232,9 @@
   },
   "active": "b3e9c91709a67d8d",
   "lastOpenFiles": [
-    "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
     "meetings/Meetings_history.md",
+    "literature/papers/reinforcement-learning/DRL-enhanced 3D detection of occluded stems for robotic grape harvesting.md",
+    "research-proposals/Deep Reinforcement Learning for robotics harvesting.md",
     "literature/papers/reinforcement-learning/Autonomous Bimanual Manipulation of Deformable Objects Using Deep Reinforcement Learning Guided Adaptive Control.md",
     "research-proposals/Perception-based problem statement.md",
     "literature/papers/reinforcement-learning/Sim2Fruit Towards Reinforcement Learning Training forSim-to-Real Autonomous Robotic Fruit Harvesting.md",
@@ -263,7 +264,6 @@
     "papers-pdf",
     "writting/paper-in-progress/robotics-applications-paper.md",
     "literature/papers/reinforcement-learning",
-    "literature/surveys/A review of visual perception technology for intelligent fruit harvesting robots.md",
     "papers/Foundation models in robotics: Applications,\nchallenges, and the future.pdf",
     "literature/papers/additive-building",
     "literature/papers/robotics-agriculture",
